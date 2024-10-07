@@ -4,7 +4,7 @@ import psycopg2
 def conectar_postgres():
     conn = psycopg2.connect(
         host="localhost",
-        database="postgres",
+        database="pentaho",
         user="postgres",
         password="postgres"
     )
